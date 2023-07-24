@@ -1,0 +1,29 @@
+{
+	"name": "template-dotnet",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "dev-container",
+	"workspaceFolder": "/workspaces/template-dotnet",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "bash",
+						"icon": "terminal-bash"
+					},
+					"pwsh": {
+						"path": "pwsh",
+						"icon": "terminal-powershell"
+					}
+				}
+			},
+			"extensions": [
+				"shd101wyy.markdown-preview-enhanced",
+				"ms-dotnettools.csharp",
+				"hashicorp.terraform"
+			]
+		}
+	}
+}
