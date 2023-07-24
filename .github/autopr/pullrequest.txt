@@ -1,1 +1,1 @@
-6-Add-Azure-Container-app-CI
+1-Scaffold-Project
